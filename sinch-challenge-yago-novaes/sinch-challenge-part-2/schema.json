@@ -1,0 +1,39 @@
+[
+      {
+        "name": "created_at",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED",
+        "description": "Timestamp truncated to the nearest hour of the event creation."
+      },
+      {
+        "name": "traffic_source",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "The source of the traffic for the session."
+      },
+      {
+        "name": "postal_code",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Postal code from where the session originated."
+      },
+      {
+        "name": "sessions",
+        "type": "INTEGER",
+        "mode": "REQUIRED",
+        "description": "Count of distinct session IDs for the grouping."
+      },
+      {
+        "name": "purchase_events",
+        "type": "INTEGER",
+        "mode": "REQUIRED",
+        "description": "Count of events where event_type equals 'purchase'."
+      },
+      {
+        "name": "total_events",
+        "type": "INTEGER",
+        "mode": "REQUIRED",
+        "description": "Total count of events for the grouping."
+      }
+]
+  
