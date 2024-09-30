@@ -25,7 +25,7 @@ with DAG(
 
     sql_file_path = os.path.join(
         os.path.dirname(__file__),
-        'sql/update_sinch_datasets_events.sql'
+        'sql/update_datasets_events.sql'
     )
 
     t1 = BigQueryExecuteQueryOperator(
