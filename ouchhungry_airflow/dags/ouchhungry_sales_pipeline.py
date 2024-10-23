@@ -33,7 +33,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
     'email_on_failure': True,
     'email_on_retry': False,
-    'email': ['correa.igor@aiqfome.com', 'diego.pastrello@aiqfome.com', 'leonardo.artur@aiqfome.com'],
+    'email': ['igor@empresa.com', 'diego@empresa.com', 'leonardo@empresa.com'],
 }
 
 def extract_and_push(**kwargs):
