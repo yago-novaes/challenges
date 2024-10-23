@@ -114,7 +114,7 @@ SFTPHook elimina a necessidade de configurar e gerenciar manualmente conexões, 
 
      json
      {
-         "private_key": "J8lM-ld9e-4fg8-5VEH",
+         "private_key": "",
          "private_key_password": "",
          "timeout": 10
      }
@@ -131,7 +131,7 @@ integrando-se facilmente com as Connections do Airflow para gerenciar credenciai
    - Tipo: `HTTP`
    - Host: URL base da API (ex: `https://api.ouchhungry.com`)
    - Login: `aiqfome`
-   - Password: `x9eYJIl0tERhj9BerXdG80C7`
+   - Password: ``
 
      json
      {
